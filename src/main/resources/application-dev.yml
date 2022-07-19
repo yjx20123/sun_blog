@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: sob-blog
+  datasource:
+    url: jdbc:mysql://49.232.159.4:3306/sob_blog_system?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true
+    driver-class-name: com.mysql.jdbc.Driver
+    username: blog
+    password: blog
+  jpa:
+    show-sql: true
+  redis:
+    host: 49.232.159.4
+    port: 6379
+    password: 123456
+server:
+  port: 8080
+blog.image.Path: D:\Product\JavaProduct\Blog_demo\sunshine-beach\src\main\java\com\yang\blog\static
+#2MB
+blog.image.max-size: 2097152
+
+
